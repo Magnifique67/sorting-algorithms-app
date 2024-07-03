@@ -11,7 +11,7 @@ public class SortApp {
         String[] inputArray = input.split(" ");
         int[] numbers = new int[inputArray.length];
 
-        // Convert input strings to integers
+        // Convert input strings to integer
         for (int i = 0; i < inputArray.length; i++) {
             numbers[i] = Integer.parseInt(inputArray[i]);
         }
